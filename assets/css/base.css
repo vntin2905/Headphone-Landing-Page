@@ -1,0 +1,128 @@
+/*=============== GOOGLE FONTS ===============*/
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+:root{
+    --white-color: #fff;
+    --black-color: #000;
+    --header-height: 7.2rem;
+}
+*,
+*::before,
+*::after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+    font-size: 62.5%;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: hsl(206, 4%, 6%);
+}
+h1, h2, h3 {
+    color: var(--title-color);
+  }
+  
+  ul {
+    list-style: none;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  button,
+  input {
+    border: none;
+    outline: none;
+  }
+  
+  button {
+    cursor: pointer;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  br {
+    height: 0;
+  }
+  .section{
+    padding: 9.6rem 0 3.2rem 0;
+  }
+  .section__title{
+    font-size: 7.2rem;
+    text-align: center;
+    margin-bottom: 4rem;
+  }
+  .section__title--gradient{
+    background: linear-gradient(hsl(206, 4%, 24%), hsl(206, 4%, 8%));
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+  }
+  .button{
+    display: inline-block;
+    background-color: hsl(206,4%,4%);
+    color: var(--white-color);
+    padding: 1.6rem 2rem;
+    border-radius: .5rem;
+    transition: all .3s;
+  }
+  .button:hover{
+    background-color: hsl(206, 4%, 8%);
+  }
+  .button--flex{
+    display: inline-flex;
+    align-items:center;
+    column-gap: 1.2rem;
+  }
+  .button__icon{
+    font-size: 1.92rem;
+  }
+  .flex{
+    display: flex !important;
+  }
+  .al-center{
+    align-items: center !important;
+  }
+  .j-center{
+    justify-content: center !important;
+  }
+.container{
+    max-width: 968px;
+    /* width: 100%; */
+    margin-left: auto;
+    margin-right: auto;
+    /* padding: 0; */
+    /* display: block; */
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;   
+}
+.col{
+
+}
+.l-6{
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+.l-3{
+    flex: 0 0 25%;
+    max-width: 25%;
+}
+.l-4{
+  flex: 0 0 33.33333%;
+  max-width: 33.33333%;
+}
+.grid{
+  display: grid;
+}
+.m-o{
+  flex: 0 0 55.71%;
+  max-width: 55.71%
+}
